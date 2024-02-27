@@ -28,7 +28,7 @@ const CardItems = () => {
             style={{ width: "10rem", marginTop: "20px" }}
           />
           <p>{item.description}</p>
-          <p>${item.price}</p>
+          <p className="price">${item.price}</p>
         </div>
       ))}
     </div>
